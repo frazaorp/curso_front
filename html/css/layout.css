@@ -1,0 +1,200 @@
+
+@import url('layout_tabelas.css');
+
+* {
+    box-sizing: border-box;
+  }
+
+html {
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%; /* equivalente a 10px */
+}
+
+
+header{
+    background-color: #ffffff;
+    padding: 0px;     
+}
+
+header h1{
+    
+    text-align: right;
+    color: #8B4513;
+    font-family: 'Comforter Brush',
+     cursive;
+    font-size: 4rem;
+    float: left;
+   
+    
+}
+
+header img, section{
+    display: inline-block;
+}
+header img{
+    width: 20%;
+    float: left;
+    
+}
+header section{
+    width: 80%;
+    
+}
+nav{
+    width: 30%; 
+    float: left;   
+}
+
+
+article{
+    width: 70%;
+    float:left;
+    
+}
+nav ul{
+    
+    list-style-type: none;
+    padding: 2;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #8B4513;
+
+}
+
+.navegacao nav{
+  width: 20%;
+  float: left;
+}
+.navegacao article{
+  width: 80%;
+  float: left;
+}
+li:hover{
+    font-size: 3rem;
+}
+a {
+    text-decoration: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #8B4513;
+}
+article h2{
+    font-family: 'Comforter Brush',
+     cursive;
+     font-size: 4rem;
+}
+article p{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+ }
+body {
+	background: #F5F5DC;
+    
+}
+
+
+footer {
+    font-size: 2rem;
+    background-color: rgba(231, 162, 13, 0.692);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  
+}
+  
+  
+div.gallery img {
+    filter:grayscale(100%);
+    width: 100%;
+    height: auto;
+   
+}
+div.gallery img:hover{
+  filter:grayscale(0%);
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+    
+}
+  
+div.desc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: 15px;
+    text-align: center;
+}
+
+  
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 100%;
+    background-color: #e76e0c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #91471d;
+}
+
+.questionario{
+  font-family: 'PT Sans Narrow', sans-serif;
+    color: #8B4513;
+    font-size: 2rem;
+}
+.videos{
+  width: 70%;
+  float:right;
+  display: inline;
+}
+.cafeteria{
+  float: right;
+  width: 80%;
+}
+@media(max-width:425px)
+{
+  header img, section{
+    display:block;
+  }
+ nav,
+ article,
+ .coluna{
+ 	width: 100%;
+  min-width: 320px;
+ }
+ img {
+  max-width: 100%;
+  height: auto;
+ }
+.videos{
+  width: 100%;
+  height: auto;
+ }
+}
+
+
+

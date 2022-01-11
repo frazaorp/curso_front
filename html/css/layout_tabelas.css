@@ -1,0 +1,65 @@
+
+table{
+
+	border: 2px solid;
+	background: #B451;
+	width: 100%;
+	border: 1px solid black;
+	border-collapse: collapse;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+
+}
+
+table tr th {
+	text-align: center;
+	font-weight: bold;
+	background: #EEEEEE;
+	padding: 1rem;
+	font-size: 2rem;
+}
+
+
+table tbody tr:hover {
+	background-color: gray;
+	font-weight: bold;
+
+}
+
+
+table tr td {
+	padding: 4rem;
+	font-size: 2rem;
+	text-align: center;
+
+	
+}
+
+table tr td:first-child {
+	text-align: left;
+	font-weight: bold;
+	padding: 6rem;
+
+}
+
+
+.table-container {
+	padding: 1rem 1rem;
+}
+
+.table-container h3 {
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.table-container tfoot {
+	background: #EEEEEE;
+	padding: 1rem;
+
+}
+
+.table-container tfoot td {
+	font-weight: bold;
+	font-size: 3rem;
+}
+
