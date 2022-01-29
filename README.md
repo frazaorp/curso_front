@@ -48,7 +48,7 @@ são ramificações / versões paralelas
 > git checkout -b dev (cria uma branch)
 > git checkout master (mudar de branch)
 
-git 
+
 ### Merge
 Mescla de branchs
 Você pode precisar resolver conflitos manualmente
